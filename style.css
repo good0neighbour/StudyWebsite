@@ -1,12 +1,18 @@
 body{
     background-color:rgb(30, 30, 30);
     color:rgb(230, 230, 230);
+    margin-left: 10%;
+    margin-right: 10%;
 }
 h1{
     text-align: center;
 }
+h2{
+    border-bottom: 2px solid;
+    margin-bottom: 5%;
+}
 p{
-    font-size: 15pt;
+    font-size: 12pt;
 }
 li{
     font-size: 15pt;
@@ -14,4 +20,15 @@ li{
 a{
     color:rgb(230, 230, 230);
     text-decoration-line: none;
+}
+img{
+    width: 409.6px;
+}
+@media (max-width: 512px) {
+    img{
+        width: 100%;
+    }
+}
+#content{
+    font-size: 12pt;
 }

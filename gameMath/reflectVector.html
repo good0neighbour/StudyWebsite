@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <title>반사벡터</title>
+</head>
+<body>
+    <h1>
+        반사벡터
+    </h1>
+    <h2>
+        <a href="../index.html">기록보관소</a> / <a href="../gameMath.html">게임수학</a>
+    </h2>
+    <p>
+        주어진 성분이 다음과 같을 때<br>
+        <br>
+        P 입사벡터<br>
+        R 반사벡터<br>
+        n 평면의 법선벡터<br>
+        T 입사각<br>
+        <br>
+        <img src="../images/reflectVector0.png" alt="이미지 불러오기 실패"><br>
+        반사벡터 R은 다음과 같다<br>
+    	R = A + B<br>
+        <br>
+        ||A|| = ||-P|| * cosT<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= ||-P|| * ||n|| * cosT<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;= -P ⋅ n<br>
+        <br>
+        A = ||A|| * n<br>
+        &nbsp;&nbsp;= (-P ⋅ n) * n<br>
+        <br>
+        B = P + A<br>
+        &nbsp;&nbsp;= P + (-P ⋅ n) * n<br>
+        <br>
+        R = A + B 에서<br>
+        R = (-P ⋅ n) * n + P + (-P ⋅ n) * n<br>
+        &nbsp;&nbsp;= P + 2 * ((-P ⋅ n) * n)<br>
+    </p>
+</body>
+</html>
