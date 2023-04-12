@@ -1,4 +1,17 @@
 body{
-    background-color: rgb(30, 30, 30);
-    color: rgb(230, 230, 230);
+    background-color:rgb(30, 30, 30);
+    color:rgb(230, 230, 230);
+}
+h1{
+    text-align: center;
+}
+p{
+    font-size: 15pt;
+}
+li{
+    font-size: 15pt;
+}
+a{
+    color:rgb(230, 230, 230);
+    text-decoration-line: none;
 }
