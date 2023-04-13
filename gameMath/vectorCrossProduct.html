@@ -15,11 +15,33 @@
         <a href="../index.html">기록보관소</a> / <a href="../gameMath.html">게임수학</a>
     </h2>
     <p>
-        외적의 결과로 나오는 벡터는 두 벡터에 수직이고, 두 벡터를 변으로 하는 평행사변형의 면적과 크기가 같은 벡터다.<br>
+        가. 개요
+        <blockquote>
+            외적의 결과로 나오는 벡터는 두 벡터에 수직이고, 두 벡터를 변으로 하는 평행사변형의 면적과 크기가 같은 벡터다. 2차원에서는 외적을 할 수 없다.
+        </blockquote>
         <br>
-        평면의 법선벡터를 구할 때 외적을 이용한다.<br>
+        나. 공식
+        <blockquote>
+            A x B = ||A|| * ||B|| * sinT * U<br>
+            T는 두 벡터 사이의 각, U는 두 벡터에 모두 수직인 단위벡터.<br>
+            3차원의 기저벡터가 다음과 같을 때,<br>
+            i = (1, 0, 0)<br>
+            j = (0, 1, 0)<br>
+            k = (0, 0, 1)<br>
+            A x B = (A_y * B_z - A_z * B_y) * i<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (A_z * B_x - A_x * B_z) * j<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+ (A_x * B_y - A_y * B_x) * k<br>
+        </blockquote>
         <br>
-        외적 값이 0이면 두 벡터는 평행이다.<br>
+        다. 두 벡터 간의 관계
+        <blockquote>
+            외적 값이 0이면 두 벡터는 평행이다.
+        </blockquote>
+        <br>
+        라. 이용
+        <blockquote>
+            평면의 법선벡터를 구할 때 외적을 이용한다.
+        </blockquote>
     </p>
 </body>
 </html>

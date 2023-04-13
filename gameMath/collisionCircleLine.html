@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <title>원과 직선의 충돌</title>
+</head>
+<body>
+    <h1>
+        원과 직선의 충돌
+    </h1>
+    <h2>
+        <a href="../index.html">기록보관소</a> / <a href="../gameMath.html">게임수학</a>
+    </h2>
+    <p>
+        <img src="../images/collisionCircleLine0.png" alt="이미지 불러오기 실패">
+        C 원의 중심<br>
+        P_0 선분의 시점<br>
+        P_1 선분의 종점<br>
+        H 원의 중심에서 선분 사이 수선의 발<br>
+        <br>
+        위 좌표가 벡터로 표현될 때<br>
+        ① (C - P_0) ⋅ (P_1 - P_0)<br>
+        ② (C - P_0) ⋅ (P_1 - P_0)<br>
+        <br>
+        여기서 ① / ② 의 값을 T라고 할 때<br>
+        <blockquote>
+            T가 0보다 작을 경우 H는 P_0의 바깥 방향으로 벗어난다.<br>
+            T가 0일 경우 P_0이 수선의 발이다.<br>
+            T가 1일 경우 P_1이 수선의 발이다.<br>
+            T가 1보다 클 경우 H는 P_1의 바깥 방향으로 벗어난다.<br>
+            T가 0에서 1 사이일 때 수선의 발은 선분 위에 있다.
+        </blockquote>
+        따라서 ① / ② 의 값이 0에서 1 사이일 때 충돌할 수 있다.<br>
+        <br>
+        직선의 벡터 방정식<br>
+        P = P_0 + t * (P_1 - P_0)<br>
+        t는 0에서 1 사이의 매개변수로, 여기서는 T에 해당한다.<br>
+        <br>
+        H = P_0 + T * (P_1 - P_0)<br>
+        C와 H 사이의 거리가 원의 반지름보다 크면 충돌하지 않은 것이고 작으면 충돌이다. 같은 경우는 개발자의 재량에 따라 충돌일 수 있고 아닐 수 있다.<br>
+    </p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <title>상태패턴</title>
+</head>
+<body>
+    <h1>
+        상태패턴
+    </h1>
+    <h2>
+        <a href="../index.html">기록보관소</a> / <a href="../designPattern.html">디자인패턴</a>
+    </h2>
+    <p>
+        가. 개요
+        <blockquote>
+            상태 패턴의 목적은 상태와 상태에 대응되는 행동을 캡슐화하여 객체로 다루기 위함이다. 상태를 가지는 클래스를 상태소유클래스라고 부르고, 그러한 상태를 구현한 클래스를 상태클래스라고 부른다.
+        </blockquote>
+        <br>
+        나. 각 클래스 간의 관계
+        <blockquote>
+            상태소유클래스는 상태클래스의 인터페이스를 제공하는 부모클래스에만 관계를 맺는다. 즉, 상태클래스와는 결합되어 있지 않다. 다른 말로, 커플링되지 않았다.<br>
+            <br>
+            상태클래스의 부모클래스는 추상 클래스로, 형태만 존재한다. 상태에 따른 실제 행동은 부모클래스의 상속으로 만들어진 각각의 생태클래스가 구현하므로, 부모클래스와 상태클래스는 약하게 결합되어있다. 이 때문에 상태소유클래스는 상태클래스에 대해 알 필요가 없어 결합도가 낮아진다.<br>
+            <br>
+            상태클래스는 부모클래스로부터 상속받아 만들어지므로 추가, 변경, 삭제하는 것은 상태클래스를 정의하거나 변경하는 정도로 이루어진다. 이러한 작업에 유연한 구조다.
+        </blockquote>
+    </p>
+</body>
+</html>
