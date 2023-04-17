@@ -16,6 +16,11 @@ h2{
 }
 p{
     font-size: 15pt;
+    margin-bottom: 2%;
+}
+blockquote{
+    font-size: 15pt;
+    margin-top: 0pt;
 }
 li{
     font-size: 18.75pt;
@@ -37,6 +42,9 @@ img{
     p{
         font-size: 12pt;
     }
+    blockquote{
+        font-size: 12pt;
+    }
     li{
         font-size: 15pt;
     }
@@ -56,6 +64,9 @@ img{
     p{
         font-size: 9pt;
     }
+    blockquote{
+        font-size: 9pt;
+    }
     li{
         font-size: 11.25pt;
     }
@@ -68,6 +79,9 @@ img{
         font-size: 9pt;
     }
     p{
+        font-size: 6pt;
+    }
+    blockquote{
         font-size: 6pt;
     }
     li{
