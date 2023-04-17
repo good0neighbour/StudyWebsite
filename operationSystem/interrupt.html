@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <title>인터럽트</title>
+</head>
+<body>
+    <h1>
+        인터럽트
+    </h1>
+    <h2>
+        <a href="../index.html">기록보관소</a> / <a href="../operationSystem.html">운영체제</a>
+    </h2>
+    <p>
+        가. 개요
+        <blockquote>
+            인터럽트는 CPU가 프로그램을 실행하고 있을 때, 입출력 하드웨어 등의 장치에 예외상황이 발생하여 처리가 필요할 경우에 CPU에게 알려 처리할 수 있도록 하는 것이다. 우선적으로 처리해야할 일이 발생하였을 때 그것을 처리하고 원래 동작으로 돌아온다.
+        </blockquote>
+    </p>
+    <p>
+        <br>
+        나. 하드웨어 인터럽트
+        <blockquote>
+            인터럽트는 일반적으로 하드웨어 인터럽트를 말한다.<br>
+            <br>
+            Maskable interrupt<br>
+            받아들일지 말지 결정 가능한 인터럽트다.<br>
+            <br>
+            Non maskable interrupt<br>
+            정전, 하드웨어 고장 등 어쩔 수 없는 오류가 발생했을 때 보내는 거부가 불가능한 중요한 인터럽트다.<br>
+            <br>
+            기계검사 인터럽트<br>
+            프로그램을 실행하는 도중 갑작스런 정전이나 컴퓨터 자체 내에서 기계적인 문제가 발생한 경우<br>
+            <br>
+            외부 인터럽트<br>
+            오퍼레이터나 타이머에 의해 의도적으로 프로그램이 중단된 경우<br>
+            <br>
+            입출력 인터럽트<br>
+            입출력의 종료나 입출력의 오류에 의해 CPU의 기능이 요청되는 경우<br>
+            <br>
+            프로그램검사 인터럽트<br>
+            프로그램 실행 중 보호된 기억공간 내에 접근하거나 불법적인 명령 수행과 같은 프로그램의 문제가 발생한 경우
+        </blockquote>
+    </p>
+    <p>
+        <br>
+        다. 소프트웨어 인터럽트
+        <blockquote>
+            소프트웨어 인터럽트는 외부가 아닌 CPU 내부에서 자신이 실행한 명령이나 CPU의 명령 실행에 
+            관련된 모듈이 변화하는 경우 발생합니다. 프로그램 실행 중 프로그램 상의 처리 불가능한 오류나 이벤트를 알리기 위한 경우 발생하는데, 이를 트랩 또는 예외라 부릅니다. 또한 프로그램 내에서 특별한 서비스를 요구하거나 감시를 목적으로 의도적으로 프로그램이 발생시킨 특별한 명령어에 의해 발생되기도 한다.
+        </blockquote>
+    </p>
+</body>
+</html>
