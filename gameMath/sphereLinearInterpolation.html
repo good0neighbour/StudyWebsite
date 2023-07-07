@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet">
+    <title>구면선형보간</title>
+</head>
+<body>
+    <h1>
+        구면선형보간
+    </h1>
+    <h2>
+        <a href="../index.html">기록보관소</a> / <a href="../gameMath.html">게임수학</a>
+    </h2>
+    <p>
+        가. 개요
+        <blockquote>
+            구면선형보간이란 직선 대신 원의 호를 이용하여 두 점 사이의 근사치를 구하는 보간 방법이다. 직선이 아니라 호를 사용하므로 두 점 사이의 근사치 값이 보다 역동적으로 변화하게 된다. 따라서 보다 부드러운 값의 변화가 일어난다. 이것은 P0과 P1의 거리가 같은 임의 점을 원의 중심으로 보고 각의 변화에 따라 P0과 P1사이의 한 지점을 특정하는 것이다.
+        </blockquote>
+    </p>
+    <p>
+        나. 구면선형보간식
+        <blockquote>
+            P = sin(Theta * (1 - t)) / sin(Theta) * P0 + sin(Theta * t) / sin(Theta) * P1
+        </blockquote>
+    </p>
+</body>
+</html>

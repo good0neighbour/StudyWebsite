@@ -1,8 +1,9 @@
 body{
     background-color:rgb(30, 30, 30);
-    color:rgb(230, 230, 230);
+    color:rgb(210, 210, 210);
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 10%;
     font-family: 문체부 바탕체, 바탕체, 문체부 훈민정음체, 궁서체, 굴림체, 돋움체;
 }
 h1{
@@ -13,6 +14,10 @@ h2{
     font-size: 22.5pt;
     border-bottom: 2px solid;
     margin-bottom: 5%;
+}
+pre{
+    font-size: 15pt;
+    margin-bottom: 2%;
 }
 p{
     font-size: 15pt;
@@ -26,7 +31,7 @@ li{
     font-size: 18.75pt;
 }
 a{
-    color:rgb(230, 230, 230);
+    color:rgb(210, 210, 210);
     text-decoration-line: none;
 }
 img{
